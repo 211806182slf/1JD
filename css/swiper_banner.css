@@ -1,0 +1,128 @@
+/* 头部广告轮播图 */
+
+.middle_banner {
+    display: flex;
+    flex-direction: row;
+}
+
+.middle_banner_left .carousel-inner .carousel-item>img {
+    width: 590px;
+    height: 470px;
+}
+
+.middle_banner_right {
+    display: inline-block;
+    margin-left: 12px;
+    width: 190px;
+    height: 470px;
+}
+
+.middle_banner_right .carousel-inner .carousel-item>img {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 190px;
+    height: 150px;
+}
+
+.jd_container_swiper {
+    display: inline-block;
+    width: 800px;
+    height: 260px;
+}
+
+
+/* #sw3 .jd_container_swiper .carousel-inner {
+    display: flex;
+} */
+
+
+/* .jd_container_swiper .carousel-inner .carousel-item {
+    float: left;
+    width: 200px;
+    height: 260px;
+} */
+
+.seckill-item {
+    float: left;
+    width: 200px;
+    height: 260px;
+}
+
+.seckill-list .seckill-item__name {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.seckill-item__name {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.seckill-item__image {
+    width: 140px;
+    height: 140px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.seckill-item__name {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.seckill-item__price {
+    width: 160px;
+    height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 24px;
+    overflow: hidden;
+    text-align: center;
+    color: red;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: flex;
+    justify-content: normal;
+}
+
+.carousel-control-next {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/* 
+.jd_container_swiper .carousel-inner .carousel-item .img1 {
+    width: 140px;
+    height: 140px;
+} */
